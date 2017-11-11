@@ -8,16 +8,39 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UICollectionViewDataSource {
 
+    @IBOutlet weak var movieCollectionView: UICollectionView!
+    
+    private var dataSource = MovieDataSource()
+    private var movie :Movie!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.movieCollectionView.dataSource = self
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.dataSource.data.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell =
+            collectionView.dequeueReusableCell(withReuseIdentifier: "movieViewCell",
+                                               for: indexPath) as! MovieTableViewCell
+        
+        
+        cell.movie = self.dataSource.data[indexPath.row]
+        self.movie = cell.movie
+        
+        return cell
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("clicou")
+        if let destination = segue.destination as? MovieDetailViewController {
+            destination.movie  = self.movie
+        }
     }
 
 

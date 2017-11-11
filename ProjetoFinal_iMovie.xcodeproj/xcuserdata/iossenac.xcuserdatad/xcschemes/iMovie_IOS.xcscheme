@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C25734141FAE2DC800F26D42"
-               BuildableName = "ProjetoFinal_iMovie.app"
-               BlueprintName = "ProjetoFinal_iMovie"
+               BlueprintIdentifier = "C28E99871FB707BD0032AC8D"
+               BuildableName = "iMovie_IOS.app"
+               BlueprintName = "iMovie_IOS"
                ReferencedContainer = "container:ProjetoFinal_iMovie.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C25734141FAE2DC800F26D42"
-            BuildableName = "ProjetoFinal_iMovie.app"
-            BlueprintName = "ProjetoFinal_iMovie"
+            BlueprintIdentifier = "C28E99871FB707BD0032AC8D"
+            BuildableName = "iMovie_IOS.app"
+            BlueprintName = "iMovie_IOS"
             ReferencedContainer = "container:ProjetoFinal_iMovie.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C25734141FAE2DC800F26D42"
-            BuildableName = "ProjetoFinal_iMovie.app"
-            BlueprintName = "ProjetoFinal_iMovie"
+            BlueprintIdentifier = "C28E99871FB707BD0032AC8D"
+            BuildableName = "iMovie_IOS.app"
+            BlueprintName = "iMovie_IOS"
             ReferencedContainer = "container:ProjetoFinal_iMovie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C25734141FAE2DC800F26D42"
-            BuildableName = "ProjetoFinal_iMovie.app"
-            BlueprintName = "ProjetoFinal_iMovie"
+            BlueprintIdentifier = "C28E99871FB707BD0032AC8D"
+            BuildableName = "iMovie_IOS.app"
+            BlueprintName = "iMovie_IOS"
             ReferencedContainer = "container:ProjetoFinal_iMovie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>iMovie_IOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C25734141FAE2DC800F26D42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C28E99871FB707BD0032AC8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
